@@ -1,9 +1,10 @@
 # Religious-Hate-Speech-Detection-Using-ML in Bengali language
-Technology used in Project:
+Technologies used in Project:
 1) Python
 2) Machine Learning
-3) Html
-4) CSS
+3) Flask
+4) Html
+5) CSS
 
 Machine Learning Algorithm:
 1) Support Vector Classifier (SVC)
