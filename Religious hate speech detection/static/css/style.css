@@ -1,0 +1,60 @@
+body {
+  background-image: url("ss.png");
+  background-size: cover;
+  /* background-color: #ccc; */
+}
+.container {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  /* background-image:url('hate.jpeg'); */
+  /* height:6400px;  */
+  width: 40%;
+  margin: 50px auto;
+  box-shadow: 4px 3px 5px rgb(1, 1, 1, 0.2);
+  border: 3px solid;
+  text-align: center;
+  background-color: white;
+  color: goldenrod;
+  font-size: 20px;
+  font-weight: bolder;
+  /* width: 800px;
+  background-color: white;
+  margin: 0 auto;
+  box-shadow: 4px 3px 5px rgb(1, 1, 1, 0.2);
+  border-radius: 10px;
+  margin-top: 60px; */
+}
+
+#label-el {
+  font-size: 30px;
+}
+#result-p {
+  color: red;
+}
+
+#sentence-el {
+  margin-top: 30px;
+  width: 80%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid rgb(15, 113, 143);
+  border-radius: 10px;
+  /* margin-bottom: 10px; */
+}
+
+#btn-submit {
+  cursor: pointer;
+  background-color: gold;
+  border: none;
+  color: #6f0113;
+  width: 150px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+/* #header{
+    font-size: 1px;
+} */

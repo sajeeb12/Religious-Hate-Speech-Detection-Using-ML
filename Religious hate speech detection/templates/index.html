@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Religious Hate Speech Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 id = "header">Religious Hate Speech Detector</h1>
+        <!-- {% if result %}
+            <p id = "result-p">{{ result }}</p>
+        {% endif %} -->
+        {% if result == 1%}
+	        <h2 style="color:red;">Religious Hate Speech</h2>
+	    {% elif result == 0%}
+	        <h2 style="color:green;">Not Religious Hate Speech</h2>
+	{% endif %}
+        <form method="post" action="/predict">
+            <label id = "label-el">Enter Text:</label><br>
+            <input type="text" name="sentence" id = "sentence-el"><br><br>
+
+            <!-- <label>IQ</label><br>
+            <input type="text" name="iq"><br><br>
+
+            <label>Profile Score</label><br>
+            <input type="text" name="profile_score"><br><br> -->
+
+            <input type="submit" value="Predict" id = "btn-submit"><br><br>
+        </form>
+
+    </div>
+    
+
+</body>
+</html>
